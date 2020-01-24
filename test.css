@@ -1,0 +1,94 @@
+body{
+	background-image: url('dark_wood.png');
+}
+
+#Header{
+	border: solid 8px black;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	text-align: center;
+	background-color: #8E41D5; 
+}
+
+#Header h1{
+	font-size: 60px;
+	font-family: "Passion One";
+	color: #FFBC00;
+	font-weight: bold;
+}
+
+#LeftNav{
+	border: solid 8px black;
+	width: 400px;
+	float: left;
+	text-align: center;
+	padding-bottom: 8px;
+	background-color: #8E41D5; 
+	/* New CSS style "max-width" used to change the maximum width of the elements */
+	max-width: 25%;
+}
+
+/* New CSS style "opacity" used to change opacity of elements */
+#LeftNav img{
+	opacity: 80%;
+}
+
+#Content{
+	border: solid 8px black;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	text-align: center;
+	padding: 15px;
+	background-color: #8E41D5;
+}
+
+/* New CSS style "border-radius" used to make rounded corners on elements */
+#Content img{
+	border-radius: 15%;
+}
+
+/* New CSS style "hover" that can change styles when you hover over an element */
+#Content:hover {
+  border: 15px solid #FFBC00;
+}
+
+#Footer{
+	border: solid 8px black;
+	text-align: center;
+	background-color: #8E41D5;
+}
+
+/* New CSS style "display" used to make lists in a single line */
+#Footer li {
+	display: inline;
+}
+
+a{
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+h3{
+	color: #FFBC00;
+	font-size: 40px;
+	font-family: "Passion One";
+	margin-bottom: 0px;
+
+}
+
+p{
+	color: white;
+	font-family: "Arial"; 
+	font-weight: bold; 
+}
+
+
+ul{
+	list-style-type: none;
+	padding-left: 0px; 
+}
