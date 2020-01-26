@@ -3,6 +3,10 @@ h1 {
 	color: purple;
 }
 
+p {
+	font-size: 18px;
+}
+
 p.firstpara {
 	margin-left: 20px;
 	margin-right: 20px;
@@ -16,8 +20,8 @@ p.secondpara{
 
 .container {
 	float: left;
-	width:200px;
-	height:220px;
+	width:240px;
+	height:264px;
 	margin:20px;
   	position: relative;
   	text-align: center;
